@@ -1,0 +1,35 @@
+name: Feedback
+description: Share feedback about Azure Functions Python DX
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: pain
+    attributes:
+      label: What pain point are you trying to solve?
+      description: Describe the Azure Functions Python developer experience issue you are facing.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area is this related to?
+      options:
+        - OpenAPI / Swagger
+        - Validation
+        - Logging
+        - Diagnostics
+        - Scaffolding
+        - Cookbook / Examples
+        - Database workflows
+        - LangGraph / AI workflows
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What would a good solution look like?
+      description: Describe the workflow or API you would like to have.

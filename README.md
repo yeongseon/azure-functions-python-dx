@@ -1,3 +1,5 @@
+> **This hub is early. Feedback from real Azure Functions Python users is very welcome.** [Share yours →](https://github.com/yeongseon/azure-functions-python-dx/issues/new?template=feedback.yml)
+
 # Azure Functions Python DX
 
 > A DX toolkit for Azure Functions Python: OpenAPI, validation, logging, diagnostics, scaffolding, and recipes.
@@ -57,20 +59,13 @@ This toolkit organizes those missing pieces into small, focused open-source proj
 Scaffold → Validation → OpenAPI → Logging → Doctor → Deploy
 ```
 
-**Start with OpenAPI + Validation + Logging.** The rest is optional.
+For HTTP APIs, start with **OpenAPI + Validation + Logging**.
 
----
+For deployment readiness, start with **Doctor**.
 
-## Where to start
+For new projects, start with **Scaffold + Cookbook**.
 
-**Building HTTP APIs?**
-→ [openapi](https://github.com/yeongseon/azure-functions-openapi-python) + [validation](https://github.com/yeongseon/azure-functions-validation-python) + [logging](https://github.com/yeongseon/azure-functions-logging-python)
-
-**Preparing for deployment?**
-→ [doctor](https://github.com/yeongseon/azure-functions-doctor-python) + [scaffold](https://github.com/yeongseon/azure-functions-scaffold-python)
-
-**Exploring advanced workflows?**
-→ [db](https://github.com/yeongseon/azure-functions-db-python) + [langgraph](https://github.com/yeongseon/azure-functions-langgraph-python)
+Experimental packages such as **DB** and **LangGraph** are for pattern exploration.
 
 ---
 
@@ -105,8 +100,8 @@ Some packages are already usable for real projects. Others are experimental and 
 | Status | Meaning |
 |---|---|
 | **Usable** | Stable enough for real projects and feedback |
-| **Early** | Usable but evolving |
-| **Experimental** | Pattern exploration, expect changes |
+| **Early** | Usable but evolving quickly |
+| **Experimental** | Pattern exploration. APIs and behavior may change. Not recommended as a production dependency yet. |
 
 ---
 

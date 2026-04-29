@@ -1,0 +1,30 @@
+name: Tool suggestion
+description: Suggest a new tool or package for the DX toolkit
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: textarea
+    id: tool
+    attributes:
+      label: What tool or package would you like to see?
+      description: Describe what the tool would do and what problem it solves.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Which category would this fit?
+      options:
+        - Core DX
+        - Project Bootstrap
+        - Experimental / Advanced
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Are there existing tools or examples that inspire this?
+      description: Links to similar tools, blog posts, or examples are helpful.

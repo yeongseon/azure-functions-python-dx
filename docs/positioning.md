@@ -1,12 +1,18 @@
 # Positioning
 
+## Is this a framework?
+
+No.
+
+This toolkit does not replace the Azure Functions Python programming model. It provides small helper tools around common DX gaps. Each package is independent — use one, some, or all. Your functions stay standard Azure Functions Python functions.
+
+---
+
 ## Why not just use FastAPI?
 
-FastAPI is excellent.
+FastAPI is excellent if you want a full web framework.
 
-This toolkit is not trying to replace FastAPI.
-
-It is for developers and teams that **already use the Azure Functions Python programming model** and want lightweight helpers around documentation, validation, logging, diagnostics, and project structure.
+This toolkit is for developers and teams that **already use the Azure Functions Python programming model** and want lightweight helpers around documentation, validation, logging, diagnostics, and project structure.
 
 - **Use FastAPI** if you want a full web framework.
 - **Use this toolkit** if you want to stay close to Azure Functions Python while improving the developer experience.
@@ -35,11 +41,10 @@ Think of it as a **practical DX layer on top of Azure Functions Python**.
 
 ---
 
-## How is this different from a framework?
+## What is production-ready?
 
-A framework controls your application structure. This toolkit doesn't.
+Core DX tools (OpenAPI, Validation, Logging, Doctor) are **Usable** — stable enough for real projects and feedback.
 
-- Each package is **independent** — use one, some, or all.
-- No custom base classes, decorators that hijack your code, or required configuration.
-- Your functions stay standard Azure Functions Python functions.
-- You can adopt or remove any package without rewriting your project.
+Bootstrap tools (Scaffold, Cookbook) are **Early** — usable but evolving quickly.
+
+Experimental packages (DB, LangGraph) are **pattern explorations**. APIs and behavior may change. Not recommended as production dependencies yet.

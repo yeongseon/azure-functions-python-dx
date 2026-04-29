@@ -1,0 +1,25 @@
+name: Missing DX pain point
+description: Report a developer experience gap in Azure Functions Python
+title: "[Pain point]: "
+labels: ["pain-point", "feedback"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is painful or missing?
+      description: Describe the Azure Functions Python developer experience gap you encountered.
+      placeholder: "e.g., There's no easy way to generate OpenAPI docs from my HTTP triggers."
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround (if any)
+      description: How are you solving this today?
+
+  - type: textarea
+    id: ideal
+    attributes:
+      label: What would an ideal solution look like?
+      description: Describe the API, CLI command, or workflow you wish existed.

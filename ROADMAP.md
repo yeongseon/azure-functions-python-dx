@@ -1,53 +1,32 @@
 # Roadmap
 
-## Goal
-
-Azure Functions Python DX Toolkit aims to make Azure Functions Python easier to use for production-style APIs, internal tools, and serverless workflows.
-
-The project is organized around six DX areas:
-
-1. API documentation
-2. Validation
-3. Logging
-4. Diagnostics
-5. Scaffolding
-6. Practical recipes
-
-Experimental areas include:
-
-1. Database-oriented workflows
-2. LangGraph integration
-3. Advanced serverless patterns
-
----
-
 ## Phase 1: Hub and positioning
 
-- [ ] Create the `azure-functions-python-dx` hub repository
-- [ ] Document all related tools
-- [ ] Define Core / Bootstrap / Experimental categories
-- [ ] Add clear status labels for each project
-- [ ] Add recommended starting points
+- [x] Create the `azure-functions-python-dx` hub repository
+- [x] Group tools into Core DX, Bootstrap, and Experimental categories
+- [x] Add links to each package
+- [x] Add recommended starting points
+- [ ] Normalize README format across all related repositories
+- [ ] Add hub link banner to each sub-repository
 
 ---
 
-## Phase 2: README consistency
+## Phase 2: Core DX quality
 
-- [ ] Align README structure across all packages
-- [ ] Add clear install instructions
-- [ ] Add quickstart examples
-- [ ] Add status badges
-- [ ] Add links back to this hub repository
+- [ ] Improve OpenAPI package examples
+- [ ] Improve Validation package examples
+- [ ] Improve Logging package examples
+- [ ] Add Doctor CLI GitHub Actions example
+- [ ] Add minimal working examples for each Core DX package
 
 ---
 
-## Phase 3: Real-world examples
+## Phase 3: Reference app
 
-- [ ] Create a documented HTTP API example
-- [ ] Add OpenAPI + Validation + Logging integration example
-- [ ] Add Doctor CLI CI example
-- [ ] Add GitHub Actions deployment example
+- [ ] Create a documented HTTP API example (OpenAPI + Validation + Logging)
 - [ ] Add Managed Identity example
+- [ ] Add GitHub Actions deployment flow
+- [ ] Add Application Insights logging example
 
 ---
 
@@ -58,14 +37,13 @@ Experimental areas include:
 - [ ] Add tool comparison pages
 - [ ] Add production API guide
 - [ ] Add troubleshooting guide
-- [ ] Add cookbook pages
 
 ---
 
 ## Phase 5: Community feedback
 
-- [ ] Share the toolkit with Azure users
+- [ ] Share the toolkit with Azure Functions Python users
 - [ ] Collect feedback on pain points
 - [ ] Identify the most useful packages
-- [ ] Decide whether to keep packages separate or provide a meta package
 - [ ] Prioritize roadmap based on real user feedback
+- [ ] Decide whether to keep packages separate or provide a meta package

@@ -1,8 +1,21 @@
 # Examples
 
-This directory will contain cross-package integration examples.
+This directory tracks planned cross-package examples for Azure Functions Python DX.
 
-For package-specific examples, see each package's repository:
+Package-specific examples are available in each project repository.
+
+## Planned examples
+
+| Example | Tools | Status |
+|---|---|---|
+| Documented HTTP API | OpenAPI + Validation + Logging | Planned |
+| Pre-deployment CI check | Doctor CLI + GitHub Actions | Planned |
+| Production-style scaffold | Scaffold + Cookbook | Planned |
+| Managed Identity API | OpenAPI + Logging + Azure SDK | Planned |
+| DB workflow experiment | DB helpers | Experimental |
+| LangGraph workflow experiment | LangGraph adapter | Experimental |
+
+## Package-specific examples
 
 | Package | Examples |
 |---|---|

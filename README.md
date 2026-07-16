@@ -43,6 +43,7 @@ This toolkit organizes those missing pieces into small, focused open-source proj
 |---|---|---|
 | [azure-functions-scaffold-python](https://github.com/yeongseon/azure-functions-scaffold-python) | Scaffold production-style projects | Early |
 | [azure-functions-cookbook-python](https://github.com/yeongseon/azure-functions-cookbook-python) | Recipes, examples, and integration patterns | Early |
+| [azure-functions-practical-guide](https://github.com/yeongseon/azure-functions-practical-guide) | Practical guide to building and operating Azure Functions | Early |
 
 ### Experimental / Advanced
 
@@ -50,6 +51,8 @@ This toolkit organizes those missing pieces into small, focused open-source proj
 |---|---|---|
 | [azure-functions-db-python](https://github.com/yeongseon/azure-functions-db-python) | DB helper and pseudo-trigger patterns | Experimental |
 | [azure-functions-langgraph-python](https://github.com/yeongseon/azure-functions-langgraph-python) | LangGraph integration patterns | Experimental |
+| [azure-functions-durable-graph-python](https://github.com/yeongseon/azure-functions-durable-graph-python) | Manifest-first graph runtime built on Durable Functions | Experimental |
+| [azure-functions-knowledge-python](https://github.com/yeongseon/azure-functions-knowledge-python) | Knowledge retrieval (RAG) decorators | Experimental |
 
 ---
 

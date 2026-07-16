@@ -50,6 +50,8 @@ This toolkit organizes those missing pieces into small, focused open-source proj
 |---|---|---|
 | [azure-functions-db-python](https://github.com/yeongseon/azure-functions-db-python) | DB helper and pseudo-trigger patterns | Experimental |
 | [azure-functions-langgraph-python](https://github.com/yeongseon/azure-functions-langgraph-python) | LangGraph integration patterns | Experimental |
+| [azure-functions-durable-graph-python](https://github.com/yeongseon/azure-functions-durable-graph-python) | Manifest-first graph runtime built on Durable Functions | Experimental |
+| [azure-functions-knowledge-python](https://github.com/yeongseon/azure-functions-knowledge-python) | Knowledge retrieval (RAG) decorators | Experimental |
 
 ---
 

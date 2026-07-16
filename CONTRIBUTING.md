@@ -30,6 +30,8 @@ If you find a bug in a specific package, please open an issue in that package's 
 | azure-functions-cookbook-python | [Issues](https://github.com/yeongseon/azure-functions-cookbook-python/issues) |
 | azure-functions-db-python | [Issues](https://github.com/yeongseon/azure-functions-db-python/issues) |
 | azure-functions-langgraph-python | [Issues](https://github.com/yeongseon/azure-functions-langgraph-python/issues) |
+| azure-functions-durable-graph-python | [Issues](https://github.com/yeongseon/azure-functions-durable-graph-python/issues) |
+| azure-functions-knowledge-python | [Issues](https://github.com/yeongseon/azure-functions-knowledge-python/issues) |
 
 ### Documentation improvements
 

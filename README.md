@@ -43,6 +43,7 @@ This toolkit organizes those missing pieces into small, focused open-source proj
 |---|---|---|
 | [azure-functions-scaffold-python](https://github.com/yeongseon/azure-functions-scaffold-python) | Scaffold production-style projects | Early |
 | [azure-functions-cookbook-python](https://github.com/yeongseon/azure-functions-cookbook-python) | Recipes, examples, and integration patterns | Early |
+| [azure-functions-practical-guide](https://github.com/yeongseon/azure-functions-practical-guide) | Practical guide to building and operating Azure Functions | Early |
 
 ### Experimental / Advanced
 
